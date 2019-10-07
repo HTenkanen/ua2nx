@@ -1,3 +1,5 @@
 dist/
 build/
 ua2nx.egg-info/
+.idea
+tests/logs/
