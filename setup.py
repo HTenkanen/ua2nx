@@ -18,11 +18,21 @@ setup(name='ua2nx',
       description='Converts UrbanAccess graph into NetworkX MultiDiGraph',
       long_description=long_description,
       url='https://github.com/htenkanen/ua2nx',
+      download_url='https://github.com/htenkanen/ua2nx/archive/v_01.tar.gz',
       author='Henrikki Tenkanen',
       author_email='henrikki@mapple.fi',
       license='MIT',
       platforms='any',
       packages=['ua2nx'],
       install_requires=install_requires,
-      include_package_data=True
+      include_package_data=True,
+
+      classifiers=[
+          'Development Status :: 3 - Alpha',
+          'Intended Audience :: Developers',
+          'Topic :: Software Development :: Build Tools',
+          'License :: OSI Approved :: MIT License',
+          'Programming Language :: Python :: 3',
+          'Programming Language :: Python :: 3.6'
+        ],
       )
