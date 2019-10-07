@@ -18,7 +18,7 @@ from ua2nx import urbanaccess_to_nx
 import urbanaccess as ua
 
 # Load precalculated UrbanAccess graph that was saved into H5
-uaG = ua.network.load_network(filename='test_net.h5', dir='.')
+uaG = ua.network.load_network(filename='tests/test_net.h5', dir='.')
 
 # Convert to NetworkX MultiDiGraph
 nxG = urbanaccess_to_nx(uaG)
