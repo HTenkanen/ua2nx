@@ -1,6 +1,7 @@
 # ua2nx
 
-A simple conversion tool that converts [UrbanAccess](https://github.com/UDST/urbanaccess) graph into [NetworkX](https://networkx.github.io/documentation/networkx-2.3/index.html) MultiDiGraph. 
+A simple conversion tool that converts [UrbanAccess](https://github.com/UDST/urbanaccess) public transport network into [NetworkX](https://networkx.github.io/documentation/networkx-2.3/index.html) MultiDiGraph.
+After the conversion, you can use all the basic network analysis methods provided by NetworkX.  
 
 ## Installation
 
@@ -23,3 +24,4 @@ uaG = ua.network.load_network(filename='test_net.h5', dir='.')
 nxG = urbanaccess_to_nx(uaG)
 ```
 
+Read the documentation of [UrbanAccess](https://udst.github.io/urbanaccess/index.html) to learn how to work with GTFS data and Urbanaccess.
