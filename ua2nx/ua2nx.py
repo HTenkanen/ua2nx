@@ -4,7 +4,7 @@ import pandas as pd
 
 def parse_nx_node(row, attr, idcol):
     """Parses nodes into nx-format"""
-    attr = row[attr].copy().drop(idcol)
+    attr = row[attr].copy()
     return (row[idcol], attr.to_dict())
 
 def parse_nx_edge(row, attr_cols, fr, to):
