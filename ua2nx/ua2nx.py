@@ -101,7 +101,7 @@ def urbanaccess_to_nx(ua_G,
         nodeid = 'id'
 
     if minimize:
-        exp_edge_attr = [fr, to, nodeid, weight_col]
+        exp_edge_attr = [fr, to, weight_col]
         exp_node_attr = [nodeid, 'x', 'y']
     else:
         exp_edge_attr = edge_attr
