@@ -14,7 +14,7 @@ install_requires = [r.strip() for r in requirements_lines]
 
 # now call setup
 setup(name='ua2nx',
-      version='0.0.4',
+      version='0.0.5',
       description='Converts UrbanAccess graph into NetworkX MultiDiGraph',
       long_description=long_description,
       url='https://github.com/htenkanen/ua2nx',
